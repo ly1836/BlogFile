@@ -85,3 +85,7 @@ deploy:
   type: git
   repo: https://github.com/ly1836/ly1836.github.io.git
   branch: master
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
