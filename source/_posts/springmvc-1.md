@@ -3,6 +3,20 @@ title: springmvc搭建JavaWeb应用
 date: 2017-09-27 15:26:44
 tags: [java,springMvc,spring]
 ---
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 本次记录利用springmvc框架搭建web应用，用到的IDE工具为 IntelliJ IDEA 2017.1.4 x64
 # 一:新建项目,因为本次版本管理工具采用maven,左侧选中maven,选中<span style="background-color: #ccc;">[Create from archetype]</span>,如下图选中cocoon-22-archetype-webapp构建web应用

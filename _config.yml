@@ -86,6 +86,13 @@ deploy:
   repo: https://github.com/ly1836/ly1836.github.io.git
   branch: master
 
+#主动提交链接到百度
+baidu_url_submit:
+  count: 10 # 提交最新的链接数
+  host: leiyang.group # 在百度站长平台中注册的域名,虽然官方推荐要带有 www, 但可以不带.
+  token: zejntld0YmjA5IyF # 你的秘钥,每个人都不一样,在百度站长平台/网页抓取/链接提交/自动提交/主动推送 下面可以找到
+  path: baidu_urls.txt # 文本文档的地址,新链接会保存在此文本文档里
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
