@@ -16,7 +16,7 @@ signature: "少年心事当拿云,\n谁念幽寒坐呜呃"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.leiyang.group
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -96,3 +96,24 @@ baidu_url_submit:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
+
+
+search: a0e8663aecb9b070b35645059a1cebbb
+path: search.xml
+field: post
+format: html
+limit: 100
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  #path: baidusitemap.xml

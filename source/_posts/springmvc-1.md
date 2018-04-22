@@ -17,6 +17,16 @@ tags: [java,springMvc,spring]
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a0e8663aecb9b070b35645059a1cebbb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
 本次记录利用springmvc框架搭建web应用，用到的IDE工具为 IntelliJ IDEA 2017.1.4 x64
 # 一:新建项目,因为本次版本管理工具采用maven,左侧选中maven,选中<span style="background-color: #ccc;">[Create from archetype]</span>,如下图选中cocoon-22-archetype-webapp构建web应用
